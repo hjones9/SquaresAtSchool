@@ -55,16 +55,31 @@ public class Squares extends Application {
                         
                         if(y == 27){
                             gc.setFill(Color.RED);
+                            //2nd square
+                            //add all nodes text
                         gc.fillRect(s*13, s, s,s);
-                        gc.fillRect(s*13, s*8, s,s);
-                        gc.fillRect(s, s*8, s,s);
-                        gc.fillRect(s*13, s, s,s);
+                        gc.fillRect(s*13, s*7, s,s);
+                        gc.fillRect(s*10, s*7, s,s);
+                        gc.fillRect(s*10, s, s,s);
                         
+                        gc.fillRect(s*10, s*4, s, s);
+                        gc.fillRect(s*16, s*4, s, s);
+                        gc.fillRect(s*16, s*7, s, s);
+                        gc.fillRect(s*16, s, s, s);
+                            
+                        //3rd square
                         
-                        gc.fillRect(s*8, s*13, s,s);
-                        gc.fillRect(s*8, s, s,s);
-                        gc.fillRect(s*13, s, s,s);
-                        gc.fillRect(s*13, s, s,s);
+                        gc.setFill(Color.CORAL);
+                        gc.fillRect(s*25, s, s, s);
+                        gc.fillRect(s*25, s*4, s, s);
+                        gc.fillRect(s*25, s*7, s, s);
+                        
+                        gc.fillRect(s*19, s, s, s);
+                        gc.fillRect(s*19, s*4, s, s);
+                        gc.fillRect(s*19, s*7, s, s);
+                        
+                        gc.fillRect(s*22, s, s, s);
+                        gc.fillRect(s*22, s*7, s, s);
                         }
 //                        break;
 
